@@ -1,56 +1,16 @@
-# 🎓 Student Management System
+# React + Vite
 
-A modern web-based Student Management System built using React, Vite, and React Router for efficiently managing student records, academic performance, and analytics.
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-## 🚀 Features
+Currently, two official plugins are available:
 
-- Add new student records
-- Search students by name, roll number, or department
-- View all student records
-- Dashboard analytics for performance tracking
-- Automatic grade calculation
-- Pass/Fail result generation
-- Local Storage integration for saving data
-- Responsive UI with smooth navigation
-- Professional navbar, footer, and dashboard cards
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
----
+## React Compiler
 
-## 🛠 Tech Stack
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-- React JS
-- Vite
-- React Router DOM
-- CSS3
-- Local Storage
+## Expanding the Oxlint configuration
 
----
-
-## 📂 Project Structure
-
-src/
-│── components/
-│ ├── Navbar.jsx
-│ ├── Footer.jsx
-│ ├── StudentForm.jsx
-│ ├── DashboardCard.jsx
-│
-│── pages/
-│ ├── Home.jsx
-│ ├── Dashboard.jsx
-│ ├── AddStudent.jsx
-│ ├── Students.jsx
-│ ├── Search.jsx
-│
-│── App.jsx
-│── main.jsx
-│── App.css
-
----
-
-## ⚙ Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/veggalamsathwika/student-management-system.git
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
